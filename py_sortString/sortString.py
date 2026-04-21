@@ -33,7 +33,5 @@ def main():
 	print(Sort_string(["a", "e", "i", "o", "u"]))
 	# ['a', 'e', 'i', 'o', 'u']
 
-	print(Sort_string(["bbb", "ccc", "ddd"]))
-	# ['bbb', 'ccc', 'ddd']  (no vowels, same length → lex order)
 
 main()
