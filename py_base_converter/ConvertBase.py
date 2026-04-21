@@ -4,7 +4,7 @@ def convertbase(num: str ,from_base: int, to_base: int):
     try:
         if not 2 <= from_base <= 36:
             return "ERROR"
-        if not 2 <= to_base <= 32 :
+        if not 2 <= to_base <= 36 :
             return "ERROR"
 		
         n = int(num, from_base)
